@@ -1,0 +1,128 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; 
+    }
+    
+    .menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 90px;
+    }
+    
+    .header-1 {
+    margin: 0;
+    width: 75%;
+    position: relative;
+    display: inline-flex;
+    
+    }
+    
+    .logo {
+        float: left;
+        padding: 16px;
+        width: 5%;
+        margin-left: 20px;
+    }
+    
+.nome-fantasia {
+width: 40%;
+display: inline-block;
+align-items: center; 
+}
+
+.nome-fantasia h1 {
+display: inline-block;
+color: #ffeeee;
+font-family: 'Franklin Gothic Medium';
+font-size: 40px;
+padding-left: 15px;
+}
+
+.header-2 {
+        margin: 0;
+        display: inline;
+        float: right;
+    }
+
+.empilhar {
+        display:inline-block;
+        vertical-align: middle;
+    }
+
+    .redes-sociais ul li {
+     margin-left: 10px;
+     display: inline-block;
+     list-style: none;
+    
+    }
+    .redes-sociais {
+        float: right;
+        margin-right: 40px;
+    }
+    
+    .logar a {
+        color: #ffeeee;
+        font-family: 'Franklin Gothic Medium';
+        font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: red;
+        float: right;
+        margin-right: 40px;
+    }
+    
+    .logar a:hover {
+        color: #00bac6;
+    
+    }
+
+    .menu-urls {
+        border-bottom: 3px solid #efefef;
+        height: 50px; 
+        width: 100%;
+        float: left;
+        position: relative;
+        margin-top: 8px; 
+    }
+    
+    .menu-navegacao {
+        background-color: white;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto
+    }
+    
+    .menu-navegacao ul {
+        padding-inline-start: 0%;
+        width: 70%;
+        margin: auto;
+        margin-top: 5px;
+    }
+    
+    .menu-navegacao ul li {
+        display: inline-block;
+        list-style: none;
+        height: 40px;
+    
+    }
+    
+    .menu-navegacao ul li:hover {
+        border-bottom: 2px solid #00bac6;
+    
+    }
+    
+    .menu-navegacao ul li a {
+        color: red;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-decoration: red;
+        display: inline-block;
+        list-style: none;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu-navegacao ul li a:hover {
+        color: #00bac6;
+    
+    }
