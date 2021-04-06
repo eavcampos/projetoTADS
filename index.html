@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro HTML</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
-    <script src="./js/scripts.js"></script>
+    <script src="./js/script1.js"></script>
+
 </head>
 
 <body>
@@ -17,15 +18,14 @@
             <div class="logo">
                 <img src="img/cardapio_64x64.png"
                     alt="Logo marca do supermercado que é um cardapio de capa vermelha com uma taca">
-            </div>
 
+            </div>
             <div class="nome-fantasia">
                 <h1>Meu mercado</h1>
             </div>
         </div>
-
         <div class="header-2">
-            <div class="empilhar">
+            <div class="empilha">
                 <div class="redes-sociais">
                     <ul>
                         <li>
@@ -44,17 +44,16 @@
                             <a href=""> <img src="img/whatsapp_32x32.png" alt="logo do Whatsapp"> </a>
 
                         </li>
+
                     </ul>
                 </div>
                 <div class="logar">
                     <a href="">Entrar</a>
                 </div>
-            </div>
 
+            </div>
         </div>
     </header>
-
-    <input type="submit" value="Chamar o Javascript" onclick="exemplo('Mundo cor de rosa');"/>
 
     <main class="menu-urls">
         <div class="menu-navegacao">
@@ -63,10 +62,36 @@
                 <li><a href="">Quem somos</a></li>
                 <li><a href="">Produtos</a> </li>
                 <li><a href="">Pedidos</a> </li>
+
             </ul>
         </div>
-        
     </main>
+
+    <section class="mostra-imagens">
+        <div class="imagem-centro-tela">
+            <img src="./img/supermercado_1.jpg" alt="imagen 1" id="img_ativa" />
+        </div>
+
+        <div class="botao-retroceder-imagem">
+
+            <input type="button" class="volta-img" onclick="retrocede_imagem();"></input>
+
+        </div>
+
+        <div class="botao-avancar-imagem">
+
+            <input type="button" class="avanca-img" onclick="avanca_imagem();"></input>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+
+    </footer>
+
+
 
 
 

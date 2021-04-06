@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro HTML</title>
+    <script>
+
+function calcular() {
+    var n = document.getElementById("numero").value;
+    document.getElementById("resultado").value = n * 3;
+}
+
+</script>
+
+</head>
+
+<body>
+
+    <input type="text" id="numero" />
+    <input type="submit" id="meu-submit" value="Enviar" onclick="calcular();"/>
+    <input type="text" id="resultado" />
+
+</body>
+</form>
+
+
+
